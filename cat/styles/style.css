@@ -1,6 +1,12 @@
 body {
-    background-color: rgba(58, 158, 63);
+    background-color: rgb(54, 151, 146);
 }
 ul li {
     display: inline;
 }
+
+#q1{
+    border: 2px solid rgb(140, 207, 207);
+    width: 150px;
+    height: 260vh;
+   }
