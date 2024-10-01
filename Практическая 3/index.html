@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Windows 8</title>
+    <style>
+        body {
+      background-image: url(images/fon.jpg);
+      background-size: 2000px 1800px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      font-family: sans-serif;
+      color: #1d1e4e;
+        }
+        .wrapper {
+         height: calc(100vh - 100px);
+        padding: 50px 0 50px 50px;
+    }
+    header {
+      font-size: 0; 
+      margin: 0 50px 50px 0;
+    }
+    
+    h1, h3 {
+      display: inline-block;
+      width: 50%;
+      vertical-align: top;
+      font-weight: 400;
+      margin: 0;
+    }
+    h1 {
+      font-size: 5rem;
+    }
+    h3 {
+      font-size: 3rem;
+      text-align: right;
+    }
+        .container{
+            display: flex; 
+            padding-right: 50px;
+            width: 100%;
+        }
+
+        .container__column{
+            display: flex; 
+            flex-direction: column; 
+            display: inline-block;
+            height: 200px;
+            width: 340px;
+            
+        }
+        
+        .c4{
+            margin-left: 70px;
+        }
+
+        .container__column-element{
+            width: 320px;
+            height: 150px;
+            background-color: rgba(58, 52, 119, 0.771);
+            cursor: pointer;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            
+        }
+        .small{
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            background-color: rgba(27, 135, 174, 0.664);
+        }
+        .word{
+            background-image: url("images/word.png"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .zoom{
+            background-image: url("images/zoom.png"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .store{
+            background-image: url("images/store.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .celendar{
+            background-image: url("images/celendar.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .photos{
+            background-image: url("images/photos.png"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .weather{
+            background-image: url("images/weather.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .vb{
+            background-image: url("images/wb.png"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .visual_studio{
+            background-image: url("images/visual_studio.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .gta{
+            background-image: url("images/gta.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .tt{
+            background-image: url("images/tt.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .access{
+            background-image: url("images/access.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+      <h1>Start</h1>
+      <h3>User</h3>
+    </header>
+        <div class="container">
+            <div class="container__column">
+                <div class="container__column-element word"></div>
+                <div class="container__column-element  "></div>
+                <div class="container__column-element zoom"></div>
+                <div class="container__column-element "></div>
+            </div>
+            <div class="container__column c2">
+                <div class="container__column-element "></div>
+                <div class="container__column-element store"></div>
+                <div class="container__column-element"></div>
+                <div class="container__column-element access"></div>
+            </div>
+            <div class="container__column c3">
+                <div class="container__column-element small celendar"></div>
+                <div class="container__column-element small"></div>
+                <div class="container__column-element small "></div>
+                <div class="container__column-element small weather"></div>
+                <div class="container__column-element"></div>
+                <div class="container__column-element visual_studio "></div>
+            </div>
+            <div class="container__column c4">
+                <div class="container__column-element vb"></div>
+                <div class="container__column-element "></div>
+                <div class="container__column-element small gta"></div>
+                <div class="container__column-element small "></div>
+                <div class="container__column-element small "></div>
+                <div class="container__column-element small tt"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
