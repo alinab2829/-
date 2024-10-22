@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+        body { 
+          margin: 0; 
+          background-color: #43a39a; /* Серый фон для пейзажа */ 
+        } 
+        
+        .car { 
+          width: 200px; 
+          height: 80px; 
+          background-color: #333; 
+          position: relative; 
+          border-radius: 7px; 
+          left: 60px; /* Начальное положение слева */ 
+          margin-top: 590px; /* Отступ от верха */ 
+          animation: 10s linear rotation;
+        } 
+        
+        .wheel { 
+          width: 40px; 
+          height: 40px; 
+          background-color: #000; 
+          border-radius: 50%; 
+          position: absolute; 
+          top: 60px; 
+          
+        } 
+        
+        .wheel.left { 
+          left: 20px; 
+          
+        } 
+        
+        .wheel.right { 
+          right: 20px; 
+        
+        } 
+        
+        .window { 
+          width: 60px; 
+          height: 30px; 
+          background-color: #ccc; 
+          position: absolute; 
+          top: 20px; 
+          left: 70px; 
+          border-radius: 3px; 
+        } 
+        
+        .road { 
+          width: 100%; 
+          height: 50px; 
+          background-color: #666; 
+          position: absolute; 
+          bottom: 0; 
+        } 
+        .sun { 
+          width: 150px; 
+          height: 150px; 
+          background-color: yellow; 
+          border-radius: 50%; 
+          position: absolute; 
+          top: 50px; 
+          left: 50px; 
+        } 
+        .cloud { 
+          width: 100px; 
+          height: 50px; 
+          background-color: #fff; 
+          border-radius: 50%; 
+          position: absolute; 
+        } 
+        
+        .cloud.first { 
+          top: 100px; 
+          left: 250px; 
+        } 
+        
+        .cloud.second { 
+          top: 150px; 
+          left: 400px; 
+        }
+        
+        .cloud.third { 
+          top: 80px; 
+          left: 550px; 
+        } 
+        
+        .cloud.fourth { 
+          top: 120px; 
+          left: 650px; 
+        }
+        
+        .cloud.fifth { 
+          top: 160px; 
+          left: 950px; 
+        }
+        
+        .cloud.sixth { 
+          top: 100px; 
+          left: 850px; 
+        }
+        .cloud.seven{ 
+          top: 100px; 
+          left: 1300px; 
+        }
+        .cloud.eight{ 
+          top: 150px; 
+          left: 1100px; 
+        }
+        .cloud.ten{ 
+          top: 90px; 
+          left: 1000px; 
+        }
+        @keyframes rotation{
+          0%{
+             left: 0%;
+        }
+        100%{
+          left: 100% ;
+        }}
+    </style>
+</head>
+<body>
+    <div class="car"> 
+            <div class="wheel left"></div> 
+            <div class="wheel right"></div> 
+            <div class="window"></div> 
+     </div> 
+        <div class="road"></div> 
+        <div class="sun"></div> 
+        <div class="cloud first"></div> 
+        <div class="cloud second"></div>
+        <div class="cloud third"></div> 
+        <div class="cloud fourth"></div>
+        <div class="cloud fifth"></div>
+        <div class="cloud sixth"></div>
+        <div class="cloud seven"></div>
+        <div class="cloud eight"></div>
+        <div class="cloud ten"></div>
+</body>
+</html>
