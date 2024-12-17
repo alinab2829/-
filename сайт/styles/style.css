@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    margin: 10;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали (если страница высоты) */
+     
+}
+/* .container{
+    padding-bottom: 6rem;
+    min-height: 54px;
+    justify-content: space-between;
+    align-items: center;
+    
+} */
+
+.container__column-element{
+    width: 245px;
+    height: 45px;
+    background-color: rgb(86, 172, 101);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 180px;
+    top: 0;
+    margin-top: -84px;
+}
+.text_item{
+    width: 100%;
+    color: white;
+    font-family: "Arial","sans-serif"; 
+    margin-inline: 0;
+    margin: 11px auto;
+    text-align: center;
+    font-size: 90%;
+    right: 1px;
+}
+.logo{
+    margin-left: -10px;
+    top: 0;
+    margin-top: -85px; 
+}
+.foto{
+    margin-left: 950px;
+    top: 0;
+    margin-top: 51.5px;
+
+  
+}
+ .container_text{
+    font-family: Circe, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 20px 0px 0px;
+} 
+
+.li{
+    font-family: Circe, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 5px 0px 0px;
+}
+.mesto{
+    height: 100vh;
+}
+.text_header{
+    text-align: left;
+    color: black;
+    font-size: 2rem;
+    margin-top: 700px;
+    margin-bottom: 3%;
+    
+}
+.h2{
+    font-weight: bolder;
+    font-size: 3rem;
+} 
+.container_text{
+    text-align: left;
+    color: black;
+    
+}
+
+.magazin{
+    margin-top: -30px;;
+    }
+/* лупа */
+.search-wrapper {
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 32px;
+    left: 650px;
+    top: 0;
+    margin-top: 51.5px;
+  }
+  
+  .search {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 32px;
+    border-color: #777575cc;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+  }
+  
+  .search__magnifier {
+    background-image: url(../foto/loupe.png);
+    position: absolute;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    border: none;
+    background: no-repeat;
+    right: 10px;
+  }
+
+
+/* текст верхушки */
+.site-header__sub {
+    height: 44px;
+    display: flex;
+    align-items: center;
+   gap: 30px;
+}
+.special_orders {
+    
+  
+    color: #ed7421;
+    font-family: Circe-ExtraBold, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.vino{
+   
+    font-family: Circe-ExtraBold, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #282828;
+    
+}
+.champagne {
+    position: relative;
+    font-family: Circe-ExtraBold, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #282828;
+}
+.whiskey{
+    position: relative;
+    font-family: Circe-ExtraBold, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #282828;
+}
+.vodka{
+    position: relative;
+    font-family: Circe-ExtraBold, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #282828;
+}
+.strong_alcohol{
+    position: relative;
+    font-family: Circe-ExtraBold, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #282828;
+}
+.soft_drinks{
+    position: relative;
+    font-family: Circe-ExtraBold, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #282828;
+}
+.products{
+    position: relative;
+    font-family: Circe-ExtraBold, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #282828;
+}
+footer {
+    background-color: #89346e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    
+    min-height: 100vh;
+    width: 100%;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
